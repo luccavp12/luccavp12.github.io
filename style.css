@@ -79,5 +79,14 @@ nav ul li ul li a:hover {
 
 .LI-profile-badge {
   padding-top: 5px;
-  padding-left: 20px;
+  padding-left: 10px;
+}
+
+.githubDescription {
+  position: absolute;
+  top: 71px;
+  left: 325px;
+  color: white;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
 }
