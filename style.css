@@ -70,6 +70,26 @@ nav ul li ul li a:hover {
   background-color: #f3f3f3;
 }
 
+#about-me-intro {
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+#author {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#about-me-description {
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  float: left;
+}
+
 .linkedin-intro {
   color: white;
   font-size: 24px;
@@ -90,9 +110,11 @@ nav ul li ul li a:hover {
 }
 
 i {
-  padding-left: 75px;
+  padding-left: 100px;
 }
 
 table {
   text-decoration: none;
+  position: relative;
+  top: 25px;
 }
