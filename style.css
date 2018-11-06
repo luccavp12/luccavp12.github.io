@@ -83,17 +83,16 @@ nav ul li ul li a:hover {
 }
 
 .github-intro {
-  position: absolute;
-  top: 71px;
-  left: 325px;
   color: white;
   font-size: 24px;
   font-family: 'Roboto', sans-serif;
+  padding-left: 25px;
 }
 
 i {
-  position: absolute;
-  top: 100px;
-  left: 375px;
-  color: white;
+  padding-left: 75px;
+}
+
+table {
+  text-decoration: none;
 }
