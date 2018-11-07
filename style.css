@@ -118,6 +118,6 @@ i {
 
 table {
   text-decoration: none;
-  position: relative;
-  top: 25px;
+  position: absolute;
+  top: 350px;
 }
