@@ -21,6 +21,7 @@ nav p {
   line-height: 55px;
   float: left;
   padding: 0px 20px;
+  font-weight: bold;
 }
 
 nav ul {
@@ -79,8 +80,10 @@ nav ul li ul li a:hover {
 
 #author {
   float: left;
-  padding-right: 10px;
-  padding-left: 10px;
+  border: 7px solid #429a9a;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #about-me-description {
