@@ -71,6 +71,19 @@ nav ul li ul li a:hover {
   background-color: #f3f3f3;
 }
 
+#acm-ucr {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+#citrus-hack-poster {
+  width: 150px;
+  height: auto;
+}
+
 #about-me-intro {
   color: white;
   font-size: 18px;
