@@ -72,16 +72,17 @@ nav ul li ul li a:hover {
 }
 
 #acm-ucr {
-  width: 300px;
+  width: 150px;
   height: auto;
-  position: absolute;
-  top: 100px;
-  left: 200px;
+  position: relative;
+  float: right;
 }
 
 #citrus-hack-poster {
   width: 150px;
   height: auto;
+  position: relative;
+  float: left;
 }
 
 #about-me-intro {
