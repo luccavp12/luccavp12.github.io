@@ -3,9 +3,9 @@
   padding: 0;
 }
 
-body {
-  background-image: url(img/gradient.jpg);
-  background-size: cover;
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
 nav {
@@ -20,7 +20,7 @@ nav p {
   font-size: 24px;
   line-height: 55px;
   float: left;
-  padding: 0px 20px;
+  padding: 5px 20px;
   font-weight: bold;
 }
 
@@ -71,16 +71,52 @@ nav ul li ul li a:hover {
   background-color: #f3f3f3;
 }
 
+.main-center {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.homeImg {
+  background-image: url(img/city.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 100%;
+}
+
+.homeDiv {
+  color: white;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  font-family: "Gravity-Light";
+  letter-spacing: 5px;
+}
+
+.titleMain {
+  font-family: "Gravity-Bold";
+  letter-spacing: 15px;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
 #acm-ucr {
-  width: 150px;
+  width: 300px;
   height: auto;
+  padding-top: 10px;
   position: relative;
-  float: right;
+  float: left;
 }
 
 #citrus-hack-poster {
   width: 150px;
   height: auto;
+  padding-right: 20px;
+  padding-left: 10px;
   position: relative;
   float: left;
 }
@@ -88,23 +124,61 @@ nav ul li ul li a:hover {
 #about-me-intro {
   color: white;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Gravity-Bold', sans-serif;
   padding: 10px;
 }
 
-#author {
-  float: left;
-  border: 7px solid #429a9a;
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+.about-me-wrapper {
+
 }
 
-#about-me-description {
-  color: white;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  float: left;
+.author {
+  position: absolute;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 200px;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-me-description {
+  color: #3d3d3d;
+  font-family: 'Gravity-Regular', sans-serif;
+  position: absolute;
+  text-align: center;
+  margin-top: 260px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: block;
+}
+
+.footer {
+  position: absolute;
+  top: 1050px;
+  background-color: #282828;
+  width: 100%;
+  height: 150px;
+}
+
+.socialIcons li a img {
+    vertical-align: middle;
+    padding: 5px;
+    height: 50px;
+}
+
+.centerLinks {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.extra-space {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .linkedin-intro {
@@ -133,5 +207,5 @@ i {
 table {
   text-decoration: none;
   position: absolute;
-  top: 350px;
+  top: 750px;
 }
