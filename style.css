@@ -159,7 +159,7 @@ nav ul li ul li a:hover {
 
 .footer {
   float: right;
-  position: absolute;
+  position: relative;
   background-color: #282828;
   width: 100%;
   height: 130px;
