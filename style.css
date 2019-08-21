@@ -21,8 +21,9 @@ nav p {
   letter-spacing: 1px;
   line-height: 55px;
   float: left;
-  padding-left: 20px;
+  padding-left: 10px;
   font-weight: bold;
+  padding-top: 2px;
 }
 
 nav ul {
@@ -73,7 +74,7 @@ nav ul li ul li a:hover {
 
 .main-center {
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
@@ -133,14 +134,20 @@ nav ul li ul li a:hover {
 }
 
 .author {
-  position: absolute;
+  /* position: absolute; */
   border-radius: 50%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-top: 50px; */
+  /* margin-bottom: 50px; */
   width: 200px;
-  height: auto;
-  left: 50%;
+  /* height: auto; */
+  /* margin-left: 50%; */
+  /* left: 50%; */
   transform: translateX(-50%);
+  position: absolute;
+  top: 77%;
+
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 
 .about-me-description {
@@ -161,7 +168,7 @@ nav ul li ul li a:hover {
   position: relative;
   background-color: #282828;
   width: 100%;
-  height: 130px;
+  height: 110px;
 }
 
 .socialIcons li a img {
