@@ -105,6 +105,14 @@ nav ul li ul li a:hover {
   margin-bottom: 10px;
 }
 
+.subTitle {
+  font-family: "Gravity-Regular";
+  color: white;
+  font-size: 30px;
+  padding: 50px 50px 0px 50px;
+  text-align: center;
+}
+
 #acm-ucr {
   width: 300px;
   height: auto;
