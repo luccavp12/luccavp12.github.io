@@ -165,10 +165,10 @@ nav ul li ul li a:hover {
 .footer {
   float: right;
   position: relative;
-  top: 100%;
+  top: 56%;
   background-color: #282828;
   width: 100%;
-  height: 110px;
+  height: 112px;
 }
 
 .socialIcons li a img {
