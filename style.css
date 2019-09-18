@@ -14,6 +14,7 @@ nav {
   background-color: white;
   position: fixed;
   top: 0px;
+  z-index: 1;
 }
 
 nav p {
@@ -141,7 +142,9 @@ nav ul li ul li a:hover {
 }
 
 .about-me-wrapper {
-  padding-bottom: 375px;
+  /* padding-bottom: 375px; */
+  margin: auto;
+  /* location.hash = "two"; */
 }
 
 .author {
@@ -157,18 +160,19 @@ nav ul li ul li a:hover {
   font-family: 'Gravity-Regular', sans-serif;
   position: absolute;
   text-align: center;
-  margin-top: 260px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
+  /* margin-top: 50px; */
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  /* padding-left: 40px; */
+  /* padding-right: 40px; */
   display: block;
 }
 
 .footer {
-  float: right;
+  /* float: right; */
   position: relative;
-  top: 56%;
+  /* top: 56%; */
+
   background-color: #282828;
   width: 100%;
   height: 112px;
