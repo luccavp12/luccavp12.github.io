@@ -180,7 +180,7 @@ nav ul li ul li a:hover {
 .footer {
   /* float: right; */
   position: relative;
-  /* top: 56%; */
+  /* top: 90%; */
 
   background-color: #282828;
   width: 100%;
@@ -241,9 +241,12 @@ table {
   margin-bottom: 10px;
   padding: 5px ;
   text-align: center;
-
-  border-color: grey;
+  font-family: "Gravity-Regular";
+  font-size: 15px;
+  border-style: solid;
+  border-color: #282828;
   border-width: 5px;
+  border-radius: 15px;
 }
 
 .contact-input:hover {
@@ -261,4 +264,45 @@ textarea {
   margin-top: 20px;
   margin-bottom: 30px;
   padding: 10px 20px 10px 20px;
+  border-color: #282828;
+  border-width: 5px;
+  border-radius: 15px;
+  font-family: "Gravity-Regular";
+}
+
+.acmimg {
+  position: absolute;
+  bottom: 0%;
+  width: 300px;
+}
+
+.calendarDescription {
+  padding-top: 20px;
+  color: #282828;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  font-size: xx-large;
+  font-family: "Gravity-Bold";
+}
+
+.googleCalendar {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.contactDescription {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #282828;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  font-size: xx-large;
+  font-family: "Gravity-Bold";
 }
