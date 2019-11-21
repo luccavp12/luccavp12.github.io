@@ -253,8 +253,10 @@ table {
   background-color: #dedede;
 }
 
-textarea {
+.textarea {
+  padding: 10px;
   resize: none;
+  text-align: left;
 }
 
 #contact-submit {
