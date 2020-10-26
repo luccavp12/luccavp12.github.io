@@ -313,3 +313,47 @@ table {
   width: 100%;
   height: 100vh;
 } */
+
+#projects {
+  background-color: rgb(219, 219, 255);
+}
+
+#projectsTitle {
+  padding-top: 71px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 50px;
+  font-family: "Gravity-Regular";
+  background-color: rgb(219, 219, 255);
+}
+
+#projectName {
+  padding-top: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  bottom: 0%;
+  /* height: 50vh; */
+  font-size: 40px;
+  font-family: "Gravity-Bold";
+  
+}
+    
+#projectNameLink:visited {
+      color: black;
+}
+
+.projectDescription {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: "Gravity-Regular";
+}
+
+#ChatVacMainImg {
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 50%;
+}
+
