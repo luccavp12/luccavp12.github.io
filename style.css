@@ -311,6 +311,7 @@ table {
 
 #projects {
   background-color: rgb(219, 219, 255);
+  padding-bottom: 20px;
 }
 
 #projectsTitle {
