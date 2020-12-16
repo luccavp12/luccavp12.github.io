@@ -309,13 +309,9 @@ table {
   font-family: "Gravity-Bold";
 }
 
-/* #resumepdf {
-  width: 100%;
-  height: 100vh;
-} */
-
 #projects {
   background-color: rgb(219, 219, 255);
+  padding-bottom: 20px;
 }
 
 #projectsTitle {
@@ -356,4 +352,3 @@ table {
   padding-left: 20px;
   width: 50%;
 }
-
